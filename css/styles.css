@@ -1,0 +1,44 @@
+/************************* 
+google-font-roboto-api 
+*************************/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+section {
+  background-color: #fffbf0;
+}
+ul .nav-item {
+  margin-left: 2rem;
+}
+.row .section-details {
+  margin-top: 3rem;
+}
+.section-details .btn {
+  background-color: rgb(139, 166, 33);
+  color: #ffff;
+  font-size: 12px;
+}
+.section-details .heading {
+  color: orange;
+  font-weight: 700;
+  font-size: 3rem;
+}
+.section-details .heading-1 {
+  color: ;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+@media (min-width: 544px) {
+  h1 {
+    font-size: 1.5rem;
+  } /*1rem = 16px*/
+}
