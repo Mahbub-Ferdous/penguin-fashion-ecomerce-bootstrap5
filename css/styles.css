@@ -12,7 +12,7 @@ google-font-roboto-api
   font-family: "Roboto", sans-serif;
 }
 
-section {
+body > .sec-color {
   background-color: #fffbf0;
 }
 ul .nav-item {
@@ -27,18 +27,20 @@ ul .nav-item {
   font-size: 12px;
 }
 .section-details .heading {
+  font-family: "Bebas Neue";
+  font-style: normal;
   color: orange;
-  font-weight: 700;
-  font-size: 3rem;
+  font-size: 60px;
 }
-.section-details .heading-1 {
-  color: ;
-  font-weight: 700;
-  font-size: 4rem;
+.section-details .text-color {
+  color: #363958;
+  font-family: "Bebas Neue";
+  font-style: normal;
 }
-
-@media (min-width: 544px) {
-  h1 {
-    font-size: 1.5rem;
-  } /*1rem = 16px*/
+main h1 {
+  font-size: 38px;
+}
+.card > .bg-pic {
+  background-color: #f1f1f1;
+  border-radius: 20px;
 }
