@@ -24,12 +24,14 @@ ul .nav-item {
 .section-details .btn {
   background-color: rgb(139, 166, 33);
   color: #ffff;
-  font-size: 12px;
+  font-size: 15px;
+  border-radius: 10px;
+  width: 8rem;
 }
 .section-details .heading {
   font-family: "Bebas Neue";
   font-style: normal;
-  color: orange;
+  color: #fabe4c;
   font-size: 60px;
 }
 .section-details .text-color {
@@ -37,10 +39,38 @@ ul .nav-item {
   font-family: "Bebas Neue";
   font-style: normal;
 }
-main h1 {
+section > .text-color {
+  color: #363958;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  text-align: center;
   font-size: 38px;
+}
+.card-body > .custom {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 28px;
+  color: #363958;
 }
 .card > .bg-pic {
   background-color: #f1f1f1;
   border-radius: 20px;
+}
+.rounded-frame {
+  border-radius: 20px;
+}
+.price-btn > .price {
+  color: #fabe4c;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+}
+.price-btn .btn {
+  background-color: rgb(139, 166, 33);
+  color: #ffff;
+  font-size: 12px;
+  border-radius: 12px;
+  width: 7rem;
 }
