@@ -16,9 +16,9 @@ body > .sec-color {
   background-color: #fffbf0;
 }
 ul .nav-item {
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
-.row .section-details {
+.section-details {
   margin-top: 3rem;
 }
 .section-details .btn {
@@ -32,7 +32,7 @@ ul .nav-item {
   font-family: "Bebas Neue";
   font-style: normal;
   color: #fabe4c;
-  font-size: 60px;
+  font-size: 50px;
 }
 .section-details .text-color {
   color: #363958;
@@ -50,8 +50,8 @@ section > .text-color {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 15px;
   color: #363958;
 }
 .card > .bg-pic {
